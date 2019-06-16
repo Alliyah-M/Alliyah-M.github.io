@@ -3,10 +3,6 @@ body {
   color: white;
 }
 
-h1 {
-  display: inline-flex;
-}
-
 .typedTitle {
   text-align: center;
   font-family: 'Bad Script', cursive;
