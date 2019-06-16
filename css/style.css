@@ -1,7 +1,17 @@
 body {
   background: silver;
   color: white;
+  font-size: 28px;
+
+
 }
+.mainHeader {
+  background: no-repeat center/100% url("../images/me_by_lake.jpg");
+  height: 900px;
+
+}
+
+
 
 h1 {
   display: inline-flex;
@@ -12,6 +22,43 @@ h1 {
   font-family: 'Bad Script', cursive;
 }
 
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.5);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.active {
+  background-color: rgba(0,0,255,0.2);
+}
+
+img {
+  width: 100%;
+}
 /* Font References
 
 font-family: 'Caveat', cursive;
