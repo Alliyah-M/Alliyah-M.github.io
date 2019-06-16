@@ -10,6 +10,11 @@ body {
   font-family: 'Bad Script', cursive;
 }
 
+.type {
+  display: inline;
+  background-color:rgba(128,0,128,0.2);
+}
+
 /* Font References
 
 font-family: 'Caveat', cursive;
