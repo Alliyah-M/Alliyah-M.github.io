@@ -5,11 +5,11 @@ body {
 
 h1 {
   display: inline-flex;
+  text-align: center;
 }
 
 .typedTitle {
   text-align: center;
-  display: inline-flex;
   font-family: 'Bad Script', cursive;
 }
 
