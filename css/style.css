@@ -2,3 +2,18 @@ body {
   background: silver;
   color: white;
 }
+
+.typedTitle {
+  background-color:rgba(128,0,128,0.2);
+  background-size: cover;
+  font-family: 'Bad Script', cursive;
+}
+
+/* Font References
+
+font-family: 'Caveat', cursive;
+font-family: 'Bad Script', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Slabo 27px', serif;
+
+*/
