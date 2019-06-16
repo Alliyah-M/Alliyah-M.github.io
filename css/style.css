@@ -4,9 +4,9 @@ body {
 }
 
 .typedTitle {
+  background-color:rgba(128,0,128,0.2);
   text-align: center;
   display: inline;
-  background-color:rgba(128,0,128,0.2);
   font-family: 'Bad Script', cursive;
 }
 
