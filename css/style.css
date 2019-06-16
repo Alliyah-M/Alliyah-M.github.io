@@ -3,8 +3,13 @@ body {
   color: white;
 }
 
+h1 {
+  display: inline-flex;
+}
+
 .typedTitle {
   text-align: center;
+  display: inline-flex;
   font-family: 'Bad Script', cursive;
 }
 
