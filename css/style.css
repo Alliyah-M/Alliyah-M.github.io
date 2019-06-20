@@ -1,26 +1,119 @@
 body {
   background: silver;
   color: white;
-  font-size: 28px;
+  font-size: 24px;
 
 
 }
 .mainHeader {
   background: no-repeat center/100% url("../images/me_by_lake.jpg");
-  height: 900px;
+  max-width: 100%;
+  height: 600px;
+  background-size: cover;
 
 }
 
 
 
-h1 {
+.h1Main {
   display: inline-flex;
 }
 
 .typedTitle {
-  text-align: center;
+  text-align: left;
   font-family: 'Bad Script', cursive;
 }
+
+nav {
+  color: white:
+}
+
+.navBar {
+  font-size: 30px;
+}
+
+
+
+
+nav ul {
+
+margin: 0px;
+padding: 0px;
+width: 100%;
+background-color: rgba(0,0,0,0.5);
+}
+
+nav ul li {
+
+display: inline-block;
+list-style: none;
+position: relative;
+
+}
+
+
+.active {
+  background-color: rgba(0,0,255,0.2);
+}
+
+nav ul li:hover {
+background-color: rgba(0,0,0,0.7);
+display: inline-block;
+
+
+}
+
+nav u li a {
+text-decoration: none;
+padding: 10px 14px;
+color: white;
+display: block;
+
+
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+nav ul li:hover ul.dropdown {
+display: block;
+}
+
+
+nav ul li ul.dropdown {
+display: none;
+position: absolute;
+top: 60px;
+right: 0px;
+
+
+}
+
+nav ul li ul.dropdown li {
+display: block;
+}
+
+
+
+img {
+  width: 100%;
+}
+/* Font References
+
+font-family: 'Caveat', cursive;
+font-family: 'Bad Script', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Slabo 27px', serif;
+
+*/
+
+
+/* Messed up code
 
 
 ul {
@@ -39,6 +132,7 @@ li {
   float: left;
 }
 
+
 li a {
   display: inline-block;
   color: white;
@@ -56,14 +150,37 @@ li a:hover {
   background-color: rgba(0,0,255,0.2);
 }
 
-img {
-  width: 100%;
+ul li ul {
+  opacity: 0;
+  position: static;
+  visibility: hidden;
+  backgroud-color: rgba(0,0,0,0.5);
+  display: none;
 }
-/* Font References
 
-font-family: 'Caveat', cursive;
-font-family: 'Bad Script', cursive;
-font-family: 'Comfortaa', cursive;
-font-family: 'Slabo 27px', serif;
+ul li ul a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  position: relative;
+  display: block;
+  min-width: 160px;
+  z-index: 4;
+}
+
+ul li ul li {
+  clear: both;
+width: 100%;
+}
 
 */
