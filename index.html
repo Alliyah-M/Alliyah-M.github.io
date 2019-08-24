@@ -16,22 +16,22 @@
     <header class="mainHeader">
       <!-- New section for typed title -->
       <div class="typedTitle">
-          <h1 class="h1Main" style="background-color:rgba(128,0,128,0.2)";"text-align: center"><span class="type"></span></h1>
+          <h1 class="h1Main"><span class="type"></span></h1>
         </div>
     </header>
 
     <!-- Sticky Navigation Bar -->
-    <nav class="navBar">
+    <nav class="navBar" id="nav">
       <ul>
         <li><a class="active" href="index.html">Main</a></li>
-        <li><a href="pages/about.html">About</a></li>
-        <li><a href="pages/skills.html">Skills</a></li>
-        <li><a href="pages/hobbies.html">Hobbies</a>
+        <li><a href="#about">About</a></li>
+        <li><a href="#hobbies">Hobbies</a>
           <ul class="dropdown">
               <li><a href="pages/dance.html">Dance</a><li>
                 <li><a href="pages/music.html">Music</a><ii>
-            <ul>
+            </ul>
         </li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
 
@@ -49,10 +49,54 @@
             });
     </script>
 
+      <span id="about" class="about">
 
-    <section>
-      <p>Hello, this site is still trash pls leave thanks ~AM.<p>
-    <section>
+        <section>
+          <div class="about-me-pic">
+            <img src="images/me4.JPG" style="float:left;width:400px;height:300px;">
+          </div>
+          <div class="about-me">
+            <h1>Hey, my name is Alliyah and I am a second year computer science student at Ryerson University with an interest in both AI and Cyber Security. </h2>
+            <p> Besides my academics, I love getting involved within my school community and enjoying my various hobbies. </p>
+          </div>
+        </section>
+      </span>
+
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <!-- Hobbies section -->
+      <section id="hobbies" class="hobbies">
+        <h1> Hobbies </h1>
+        <p> Music is a big part of my life, so most of my hobbies revolve around just that.
+          I'm very passionate about Electronic music and have dabbled in making it myself.
+          I also really enjoy attending concerts, and now music festivals, as well as shuffling! Check out some of what I do down below. </p>
+
+        
+      </section>
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+var navbar = document.getElementById("nav");
+var sticky = nav.offsetTop;
+
+function myFunction() {
+  if(window.pageYOffset >= sticky) {
+    nav.classList.add("sticky")
+  }
+
+  else{
+    nav.classList.remove("sticky");
+  }
+
+  }
+  </script>
+
+
 
   </body>
 </html>
