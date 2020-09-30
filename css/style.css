@@ -39,7 +39,7 @@ margin-bottom: 10%;
 }
 
 nav {
-  color: white:
+  color: white;
 }
 
 .navBar {
@@ -128,22 +128,37 @@ display: block;
 
 .aboutImg {
   width: 80%;
-  margin-left: 5%;
-  margin-top: 5%;
-  box-shadow: 1em 1em 0 0 white, 1em 1em 0 5px gray;
+  margin-left: 25%;
+  margin-top: 15%;
+  box-shadow: 1em 1em 0 0 white, 1em 1em 0 5px rgb(88, 3, 103);
 }
 
 .about {
   font-family: "Comfortaa";
   font-size: 1.2em;
+
 }
 
 .about-blurb {
   font-family: "Comfortaa";
   font-size: 1.2em;
-  margin-top: 25%;
+  margin-top: 15%;
+  margin-left: 10%;
   background-color: rgba(200,162,200,0.3);
 }
+
+.extraC {
+  font-family: "Comfortaa";
+  text-align: right;
+}
+
+.extraC-blurb {
+  font-family: "Comfortaa";
+  background-color: rgba(255, 239, 204, 0.3);
+  padding: 3%;
+  text-align: left;
+}
+
 
 
 .hobbies {
@@ -156,11 +171,11 @@ display: block;
 .hobbies-blurb {
   font-family: "Comfortaa";
   background-color: rgba(204,229,255,0.3);
-  padding: 5%;
+  padding: 3%;
   text-align: left;
 }
 
-#concertHeader{
+#hobbiesHeader{
   font-family: "Comfortaa";
   background-color: rgba(0,0,0,0.1);
   text-align: center;
@@ -175,6 +190,6 @@ display: block;
 
 form {
   font-family: "Comfortaa";
-  background-color: rgba(191,248,104,0.3);
-  font-size: 1.8vw;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 1vw;
 }
