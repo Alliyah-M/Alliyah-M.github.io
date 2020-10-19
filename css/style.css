@@ -2,15 +2,17 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: rgba(32,32,32,0.5);
   color: white;
   font-size: 24px;
-  font-family: "Comfortaa";
+  font-family: 'Indie Flower', cursive;
 }
 
+a {
+  font-family: 'Indie Flower', cursive;
+}
 
-h1,h2,h3 {
-  font-family: "Comfortaa";
+h1,h2,h3,h6 {
+  font-family: 'Indie Flower', cursive;
 }
 .mainHeader {
   background: no-repeat center/100% url("../images/AGO1.JPG");
@@ -25,13 +27,13 @@ text-align: center;
 margin-top: 10%;
 display: inline-flex;
 background-color: rgba(255,255,255,0.1);
-font-family: 'Bad Script', cursive;
+font-family: 'Indie Flower', cursive;
 margin-bottom: 10%;
 }
 
 .typedTitle {
-  font-family: 'Bad Script', cursive;
-  font-size: 4em;
+  font-family: 'Indie Flower', cursive;
+  font-size: 10em;
   text-align: center;
   padding-left: 5%;
   color: white;
@@ -134,13 +136,13 @@ display: block;
 }
 
 .about {
-  font-family: "Comfortaa";
+  font-family: 'Indie Flower', cursive;
   font-size: 1.2em;
 
 }
 
 .about-blurb {
-  font-family: "Comfortaa";
+  font-family: 'Chilanka', cursive;
   font-size: 1.2em;
   margin-top: 15%;
   margin-left: 10%;
@@ -148,35 +150,34 @@ display: block;
 }
 
 .extraC {
-  font-family: "Comfortaa";
+  font-family: 'Chilanka', cursive;
   text-align: right;
 }
 
 .extraC-blurb {
-  font-family: "Comfortaa";
+  font-family: 'Chilanka', cursive;
   background-color: rgba(255, 239, 204, 0.3);
-  padding: 3%;
+  padding: 1%;
   text-align: left;
 }
 
 
 
 .hobbies {
-  font-family: "Comfortaa";
+  font-family: 'Chilanka', cursive;
   text-align: right;
-
 
 }
 
 .hobbies-blurb {
-  font-family: "Comfortaa";
+  font-family: 'Chilanka', cursive;
   background-color: rgba(204,229,255,0.3);
   padding: 3%;
   text-align: left;
 }
 
 #hobbiesHeader{
-  font-family: "Comfortaa";
+  font-family: 'Indie Flower', cursive;
   background-color: rgba(0,0,0,0.1);
   text-align: center;
 
@@ -189,7 +190,7 @@ display: block;
 }
 
 form {
-  font-family: "Comfortaa";
+  font-family: 'Chilanka', cursive;
   background-color: rgba(0, 0, 0, 0.3);
   font-size: 1vw;
 }
